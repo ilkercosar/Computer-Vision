@@ -1,7 +1,7 @@
 import cv2
 from threading import Thread
 from sys import exit
-
+ 
 class WebcamStream():
     def __init__(self):        
         self.vcap = cv2.VideoCapture(0, cv2.CAP_ANY)
